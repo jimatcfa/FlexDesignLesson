@@ -1,3 +1,4 @@
+/* Mobile menu */
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -29,5 +30,4 @@
 .active .item {
     display: block;
 }
-
 
