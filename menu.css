@@ -1,0 +1,60 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 5x;
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.item.button {
+    order:2;
+}
+
+.item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.active .item {
+    display: block;
+}
+
+.button.secondary {
+    border-bottom: 1px #444 solid;
+}
+
+/* Desktop menu */
+@media all and (min-width: 960px) {
+    .item {
+        width: 100px;
+        display: inline;
+        display: block;
+    }
+
+    .menu {
+        display: flex; 
+        flex-wrap: nowrap;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .item.button {
+        order: 5;
+        padding: 0;
+        background-color: blueviolet;
+    }
+
+}
