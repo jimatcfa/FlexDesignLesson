@@ -62,10 +62,16 @@ section.plan {
     margin: 25px;
     color: #fff;
     background-color: #333;
-    width: 200px;
+    width: 90%;
     line-height: 1.5;
     font-size: 1.1rem;
 }
 section.plan>header{
     font-size: 1.6rem;
+}
+
+@media all and (min-width: 960px){
+    section.plan {
+        width: 200px;
+    }
 }
