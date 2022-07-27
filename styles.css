@@ -50,3 +50,22 @@ header {
     font-size: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+section#plans{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+section.plan {
+    padding: 25px;
+    margin: 25px;
+    color: #fff;
+    background-color: #333;
+    width: 200px;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+section.plan>header{
+    font-size: 1.6rem;
+}
