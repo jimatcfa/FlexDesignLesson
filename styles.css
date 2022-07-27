@@ -51,3 +51,28 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+#plans {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: space-between;
+}
+
+.plan {
+    padding: 25px;
+    margin: 25px;
+    width: 100%;
+    color: white;
+    background-color: grey;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+@media all and (min-width: 960px) {
+    section.plan {
+        width: 200px;
+    }
+}
+
